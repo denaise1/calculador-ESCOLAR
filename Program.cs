@@ -1,1 +1,14 @@
-﻿Console.WriteLine(" === Calculadora Escolar === ");
+﻿using System.ComponentModel;
+
+Console.WriteLine(" === Calculadora Escolar === ");
+
+Console.Write(&quot; Digite a primeira nota: &quot;);
+double nota1 = Convert.ToDouble(Console.ReadLine());
+
+Console.Write(&quot; Digite a segunda nota: &quot;);
+double nota2 = Convert.ToDouble(Console.ReadLine());
+
+double soma = nota1 + nota2;
+
+Console.WriteLine($&quot; Soma das notas: { soma}
+&quot;);
